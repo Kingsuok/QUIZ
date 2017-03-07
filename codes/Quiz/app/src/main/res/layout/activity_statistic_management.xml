@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/cornersgrey">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteStatistic1"
+        android:layout_marginTop="10dp"
+        android:hint="ID to delete"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deleteStatistic2"
+        android:hint="ID to delete"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deleteStatistic3"
+        android:hint="ID to delete"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deleteStatistic4"
+        android:hint="ID to delete"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deleteStatistic5"
+        android:hint="ID to delete"
+        android:textStyle="italic"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:background="@drawable/cornerswhite"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:id="@+id/clearDeleteStatistic"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:text="clear"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:id="@+id/deleteStatistic"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:text="submit"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:textSize="25sp"
+        android:background="#ffe4e1"
+        android:id="@+id/deleteAllStatistic"
+        android:text="Delete all stats"/>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/cornersgrey"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/cornerswarm"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:text="Time: "/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeCount"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="#000080"
+            android:text="10 sec"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takerQuestion"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Question"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/takerAnswers"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/takerOptionA"
+            android:textSize="20sp"
+            android:text=" tod"/>
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/takerOptionB"
+            android:text=" tod"/>
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/takerOptionC"
+            android:text=" tod"/>
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/takerOptionD"
+            android:text=" tod"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#333366"
+            android:id="@+id/takerNameDisplayQT"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:text="taker's name:"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#660099"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/correctRateDisplayQT"
+            android:layout_weight="1"
+            android:text="0/0"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:layout_gravity="right"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:text="next"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:background="#00000000"/>
+</LinearLayout>
+
+
+</LinearLayout>

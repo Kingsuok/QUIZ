@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cornersgrey">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/id1"
+            android:hint="ID"
+
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/password1"
+            android:hint="password"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cornersgrey">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/id2"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/password2"
+            android:hint="password"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cornersgrey">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/id3"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/password3"
+            android:hint="password"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cornersgrey">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/id4"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/password4"
+            android:hint="password"
+            />
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/cornersgrey">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/id5"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/password5"
+            android:hint="password"
+            />
+    </LinearLayout>
+-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:background="@drawable/cornerswhite">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:id="@+id/clearTakers"
+            android:text="clear"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:id="@+id/submitTakers"
+            android:layout_gravity="right"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:text="submit"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
